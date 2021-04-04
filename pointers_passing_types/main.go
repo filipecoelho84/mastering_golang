@@ -37,6 +37,12 @@ func changeSlice(s []int) {
 	}
 }
 
+func changeMap(m map[string]int) {
+	m["a"] = 10
+	m["b"] = 20
+	m["c"] = 30
+}
+
 func main() {
 	quantity, price, name, sold := 5, 300.4, "Laptop", true
 	fmt.Println("BEFORE calling changeValues():", quantity, price, name, sold)
@@ -58,4 +64,11 @@ func main() {
 	changeProductByPointer(&gift)
 	fmt.Println("BEFORE calling changeProductByPointer():", gift)
 
+	prices := []int{1, 2, 3}
+	changeSlice(prices)
+	fmt.Println("prices slice after calling changeSlice():", prices)
+
+	myMap := map[string]int{"a": 1, "b": 2}
+	changeMap(myMap)
+	fmt.Println("myMap after calling changeMap():", myMap)
 }
