@@ -66,5 +66,4 @@ func main() {
 
 	a := c1.area()
 	fmt.Println("Circle Area:", a)
-	
 }
