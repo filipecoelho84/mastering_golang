@@ -39,4 +39,3 @@ func main() {
 	fmt.Printf("%#v\n", bestBook)
 
 }
-
