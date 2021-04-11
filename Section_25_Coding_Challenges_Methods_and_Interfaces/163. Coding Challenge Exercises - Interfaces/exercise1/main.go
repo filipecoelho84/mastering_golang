@@ -19,3 +19,18 @@
 
 // 4. Run the program without errors.
 
+package main
+
+type vehicle interface {
+    License() string
+    Name() string
+}
+ 
+type car struct {
+    licenceNo string
+    brand     string
+}
+
+func main() {
+
+}
