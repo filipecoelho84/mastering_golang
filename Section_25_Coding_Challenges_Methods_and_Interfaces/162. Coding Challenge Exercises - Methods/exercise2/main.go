@@ -1,7 +1,8 @@
 // Coding Exercise #2
 
 // Consider the money type declared at exercise #1.
-// Create a new method for the money type called printStr that returns the money value as a string with 2 decimal points.
+// Create a new method for the money type called printStr
+// that returns the money value as a string with 2 decimal points.
 
 package main
 

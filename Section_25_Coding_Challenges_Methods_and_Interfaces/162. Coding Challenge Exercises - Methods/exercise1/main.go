@@ -2,7 +2,8 @@
 
 // 1. Create a new type called money. Its underlying type is float64.
 
-// 2. Create a method called print that prints out the money value with exact 2 decimal points.
+// 2. Create a method called print that prints out the money value
+// with exact 2 decimal points.
 
 package main
 
